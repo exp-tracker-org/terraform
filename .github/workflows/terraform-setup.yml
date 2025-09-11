@@ -33,7 +33,7 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terraform plan -out=tfplan -var="aws_region=us-east-1"
+        run: terraform plan -out=tfplan 
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
