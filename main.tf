@@ -27,7 +27,7 @@ resource "aws_instance" "k8s_master" {
   })
 
   tags = {
-    Name = "Minnu-K8s-Master-Exp"
+    Name = "Minnu-K8s-Master-Exp-T"
   }
 }
 
